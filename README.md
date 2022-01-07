@@ -3,6 +3,9 @@ ___
 Creating a custom dataset for Alight Question Answering tasks.
 
 * **Note:** This is still under construction! We are currently looking into methods to assess the generated questions and answers.
+
+**When you try to use the Questgen.ai, there in currently an issue**:
+    we need to change the source code in **mcq.py** file from `from similarity.normalized_levenshtein import NormalizedLevenshtein` to `from strsimpy.normalized_levenshtein import NormalizedLevenshtein`.**
 ___
 
 ## Examples of how to use:
